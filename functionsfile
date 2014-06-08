@@ -1,0 +1,9 @@
+import socket
+
+
+# Get the Hostname 
+hostnameresult = socket.gethostname()
+global hostname
+hostname = str(hostnameresult)
+
+
